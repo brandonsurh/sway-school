@@ -18,7 +18,7 @@ Before starting developing smart contracts in Sway, please keep in mind the [kno
 
 # Getting Started
 
-Start by [installing the Rust toolchain](https://fuellabs.github.io/sway/v0.24.3/introduction/installation.html#dependencies)
+Start by [installing the Sway toolchain](https://fuellabs.github.io/sway/v0.24.3/introduction/installation.html#dependencies)
 
 # Linux/WSL
 Run the following:
