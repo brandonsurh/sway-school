@@ -135,9 +135,9 @@ else
     echo "SUCCESS: Rust is up to date"
 fi
 
-Path=${1:-sway-school/}
-echo "Cloning sway-school at $Path..."
-git clone -q https://github.com/brandonsurh/sway-school.git "$Path"
+Path=${1:-swayschool/}
+echo "Cloning swayschool at $Path..."
+git clone -q https://github.com/brandonsurh/swayschool.git "$Path"
 
 cd "$Path"
 
@@ -156,7 +156,7 @@ git checkout -q ${Version}
 echo "Installing the 'rustlings' executable..."
 cargo install --force --path .
 
-if ! [ -x "$(command -v sway-school)" ]
+if ! [ -x "$(command -v swayschool)" ]
 then
     echo "WARNING: Please check that you have '$CargoBin' in your PATH environment variable!"
 fi
@@ -170,4 +170,4 @@ then
     rustup component add clippy
 fi
 
-echo "All done! Run 'sway-school' to get started."
+echo "All done! Run 'swayschool' to get started."

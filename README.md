@@ -1,4 +1,4 @@
-# sway-school :zap::school:
+# swayschool :zap::school:
 
 Hello! Welcome to SwaySchool. This project contains small exercises to get you reading and writing in Sway. This includes reading and debugging compiler messages!
 
